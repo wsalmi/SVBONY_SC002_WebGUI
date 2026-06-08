@@ -1,0 +1,318 @@
+================================================================
+ SVBONY SC002 â€” Probe Fase 3b (download retry)
+ Data:    2026-06-08T13:26:54Z
+================================================================
+
+----- Sanity check (conexÃ£o) -----
+=== sanity ===
+{"result":0,"info":{"capacity":4,"charge":0}}
+===
+LATEST = EMMC/Photo/F/20260525083452.jpg
+
+----- Direct EMMC paths (lighttpd serve estÃ¡tico?) -----
+[01] dl-head    HEAD http://192.168.0.1/EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 200 OK
+Content-Type: image/jpeg
+Accept-Ranges: bytes
+ETag: "-1236318658"
+Last-Modified: Mon, 25 May 2026 08:34:52 GMT
+Content-Length: 2033836
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[02] dl-head    HEAD http://192.168.0.1/EMMC/EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/EMMC/EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[03] dl-head    HEAD http://192.168.0.1/sd/EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/sd/EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[04] dl-head    HEAD http://192.168.0.1/mnt/EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/mnt/EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[05] dl-head    HEAD http://192.168.0.1/mmc/EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/mmc/EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[06] dl-head    HEAD http://192.168.0.1/data/EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/data/EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[07] dl-head    HEAD http://192.168.0.1/storage/EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/storage/EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[08] dl-head    HEAD http://192.168.0.1/cgi/EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/cgi/EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[09] dl-head    HEAD http://192.168.0.1/files/EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/files/EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[10] dl-head    HEAD http://192.168.0.1/dav/EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/dav/EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[11] dl-head    HEAD http://192.168.0.1/app/file?name=EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/app/file?name=EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[12] dl-head    HEAD http://192.168.0.1/app/download?name=EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/app/download?name=EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[13] dl-head    HEAD http://192.168.0.1/app/getfile?name=EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/app/getfile?name=EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[14] dl-head    HEAD http://192.168.0.1/app/get?name=EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/app/get?name=EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[15] dl-head    HEAD http://192.168.0.1/app/getmedia?name=EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/app/getmedia?name=EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[16] dl-head    HEAD http://192.168.0.1/app/media?name=EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/app/media?name=EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[17] dl-head    HEAD http://192.168.0.1/app/loadfile?name=EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/app/loadfile?name=EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[18] dl-head    HEAD http://192.168.0.1/app/readfile?name=EMMC/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/app/readfile?name=EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[19] dl-head    HEAD http://192.168.0.1/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[20] dl-head    HEAD http://192.168.0.1/Photo/F/20260525083452.jpg
+=== [dl-head] HEAD http://192.168.0.1/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:54 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+
+----- Magic bytes (Range 0-31) nos paths /app/getthumbnail e /app/snapshot -----
+[21] thumb      GET-32B http://192.168.0.1/app/getthumbnail?name=EMMC/Photo/F/20260525083452.jpg
+=== [thumb] GET (Range: bytes=0-31) http://192.168.0.1/app/getthumbnail?name=EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 200 OK
+Content-Length: 0
+Date: Mon, 08 Jun 2026 10:26:55 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[22] dl-byte    GET-32B http://192.168.0.1/EMMC/Photo/F/20260525083452.jpg
+=== [dl-byte] GET (Range: bytes=0-31) http://192.168.0.1/EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 206 Partial Content
+Content-Type: image/jpeg
+Accept-Ranges: bytes
+ETag: "-1236318658"
+Last-Modified: Mon, 25 May 2026 08:34:52 GMT
+Content-Range: bytes 0-31/2033836
+Content-Length: 32
+Date: Mon, 08 Jun 2026 10:26:55 GMT
+Server: lighttpd/1.4.26
+
+ÿØÿà..JFIF..........ÿÛ.Å...
+..
+=== END ===
+
+[23] dl-byte    GET-32B http://192.168.0.1/EMMC/EMMC/Photo/F/20260525083452.jpg
+=== [dl-byte] GET (Range: bytes=0-31) http://192.168.0.1/EMMC/EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END ===
+
+[24] dl-byte    GET-32B http://192.168.0.1/sd/EMMC/Photo/F/20260525083452.jpg
+=== [dl-byte] GET (Range: bytes=0-31) http://192.168.0.1/sd/EMMC/Photo/F/20260525083452.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 10:26:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END ===
+
+
+================================================================
+ SUMMARY (Fase 3b)
+ Total requests:    24
+ HTTP/TCP success:  24
+================================================================
+
+=== PROBE_END ===
+total=24
+ok=24
+latest=EMMC/Photo/F/20260525083452.jpg

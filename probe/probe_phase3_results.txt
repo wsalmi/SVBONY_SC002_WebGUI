@@ -1,0 +1,815 @@
+================================================================
+ SVBONY SC002 — Probe Fase 3 (arquivos + persistência)
+ Data:    2026-06-08T12:10:25Z
+================================================================
+
+----- Snapshot inicial (gera um arquivo fresco) -----
+[01] snapshot     http://192.168.0.1/app/snapshot
+=== [snapshot] GET http://192.168.0.1/app/snapshot ===
+curl: (7) Failed to connect to 192.168.0.1 port 80 after 4 ms: Couldn't connect to server
+
+=== END (exit_code=7, elapsed_ms=0, curl_failed) ===
+
+
+----- getfilelist depois do snapshot -----
+[02] filelist     http://192.168.0.1/app/getfilelist
+=== [filelist] GET http://192.168.0.1/app/getfilelist ===
+curl: (7) Failed to connect to 192.168.0.1 port 80 after 3 ms: Couldn't connect to server
+
+=== END (exit_code=7, elapsed_ms=0, curl_failed) ===
+
+
+----- Tentativas de DOWNLOAD de arquivo -----
+Vamos usar nome estático para reproducibilidade.
+curl: (7) Failed to connect to 192.168.0.1 port 80 after 2 ms: Couldn't connect to server
+LATEST_PHOTO = EMMC/Photo/F/20260607182633.jpg
+[03] download     HEAD http://192.168.0.1/EMMC/Photo/F/20260607182633.jpg
+=== [download] HEAD http://192.168.0.1/EMMC/Photo/F/20260607182633.jpg ===
+curl: (7) Failed to connect to 192.168.0.1 port 80 after 2 ms: Couldn't connect to server
+
+=== END ===
+
+[04] download     HEAD http://192.168.0.1/EMMC/EMMC/Photo/F/20260607182633.jpg
+=== [download] HEAD http://192.168.0.1/EMMC/EMMC/Photo/F/20260607182633.jpg ===
+curl: (7) Failed to connect to 192.168.0.1 port 80 after 2 ms: Couldn't connect to server
+
+=== END ===
+
+[05] download     HEAD http://192.168.0.1/sd/EMMC/Photo/F/20260607182633.jpg
+=== [download] HEAD http://192.168.0.1/sd/EMMC/Photo/F/20260607182633.jpg ===
+curl: (7) Failed to connect to 192.168.0.1 port 80 after 3 ms: Couldn't connect to server
+
+=== END ===
+
+[06] download     HEAD http://192.168.0.1/storage/EMMC/Photo/F/20260607182633.jpg
+=== [download] HEAD http://192.168.0.1/storage/EMMC/Photo/F/20260607182633.jpg ===
+curl: (7) Failed to connect to 192.168.0.1 port 80 after 2 ms: Couldn't connect to server
+
+=== END ===
+
+[07] download     HEAD http://192.168.0.1/app/file?name=EMMC/Photo/F/20260607182633.jpg
+=== [download] HEAD http://192.168.0.1/app/file?name=EMMC/Photo/F/20260607182633.jpg ===
+curl: (7) Failed to connect to 192.168.0.1 port 80 after 2 ms: Couldn't connect to server
+
+=== END ===
+
+[08] download     HEAD http://192.168.0.1/app/download?name=EMMC/Photo/F/20260607182633.jpg
+=== [download] HEAD http://192.168.0.1/app/download?name=EMMC/Photo/F/20260607182633.jpg ===
+curl: (7) Failed to connect to 192.168.0.1 port 80 after 2 ms: Couldn't connect to server
+
+=== END ===
+
+[09] download     HEAD http://192.168.0.1/app/getfile?name=EMMC/Photo/F/20260607182633.jpg
+=== [download] HEAD http://192.168.0.1/app/getfile?name=EMMC/Photo/F/20260607182633.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 09:10:25 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[10] download     HEAD http://192.168.0.1/app/getphoto?name=EMMC/Photo/F/20260607182633.jpg
+=== [download] HEAD http://192.168.0.1/app/getphoto?name=EMMC/Photo/F/20260607182633.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 09:10:26 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[11] download     HEAD http://192.168.0.1/app/getvideo?name=EMMC/Photo/F/20260607182633.jpg
+=== [download] HEAD http://192.168.0.1/app/getvideo?name=EMMC/Photo/F/20260607182633.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 09:10:26 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[12] download     HEAD http://192.168.0.1/app/getmedia?name=EMMC/Photo/F/20260607182633.jpg
+=== [download] HEAD http://192.168.0.1/app/getmedia?name=EMMC/Photo/F/20260607182633.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 09:10:26 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[13] download     HEAD http://192.168.0.1/app/getthumbnail?name=EMMC/Photo/F/20260607182633.jpg
+=== [download] HEAD http://192.168.0.1/app/getthumbnail?name=EMMC/Photo/F/20260607182633.jpg ===
+HTTP/1.1 200 OK
+Date: Mon, 08 Jun 2026 09:10:27 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[14] download     HEAD http://192.168.0.1/cgi-bin/get_file?name=EMMC/Photo/F/20260607182633.jpg
+=== [download] HEAD http://192.168.0.1/cgi-bin/get_file?name=EMMC/Photo/F/20260607182633.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 09:10:27 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+[15] download     HEAD http://192.168.0.1/cgi-bin/getfile.cgi?name=EMMC/Photo/F/20260607182633.jpg
+=== [download] HEAD http://192.168.0.1/cgi-bin/getfile.cgi?name=EMMC/Photo/F/20260607182633.jpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 09:10:27 GMT
+Server: lighttpd/1.4.26
+
+
+=== END ===
+
+
+----- DELETE com nome inválido (NÃO apaga real) -----
+[16] del-probe    http://192.168.0.1/app/delfile?name=this-file-does-not-exist.zzz
+=== [del-probe] GET http://192.168.0.1/app/delfile?name=this-file-does-not-exist.zzz ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 09:10:27 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[17] del-probe    http://192.168.0.1/app/deletefile?name=this-file-does-not-exist.zzz
+=== [del-probe] GET http://192.168.0.1/app/deletefile?name=this-file-does-not-exist.zzz ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:28 GMT
+Server: lighttpd/1.4.26
+
+{"result":-1,"info":"delete failed"}
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[18] del-probe    http://192.168.0.1/app/delete?name=this-file-does-not-exist.zzz
+=== [del-probe] GET http://192.168.0.1/app/delete?name=this-file-does-not-exist.zzz ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 09:10:28 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[19] del-probe    http://192.168.0.1/app/rmfile?name=this-file-does-not-exist.zzz
+=== [del-probe] GET http://192.168.0.1/app/rmfile?name=this-file-does-not-exist.zzz ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 09:10:28 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[20] del-probe    http://192.168.0.1/app/removefile?name=this-file-does-not-exist.zzz
+=== [del-probe] GET http://192.168.0.1/app/removefile?name=this-file-does-not-exist.zzz ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 09:10:28 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[21] del-probe    http://192.168.0.1/app/unlink?name=this-file-does-not-exist.zzz
+=== [del-probe] GET http://192.168.0.1/app/unlink?name=this-file-does-not-exist.zzz ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 09:10:28 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[22] del-probe    http://192.168.0.1/cgi-bin/delete.cgi?name=this-file-does-not-exist.zzz
+=== [del-probe] GET http://192.168.0.1/cgi-bin/delete.cgi?name=this-file-does-not-exist.zzz ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Mon, 08 Jun 2026 09:10:28 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+
+----- PERSISTÊNCIA via wildcard -----
+Sequência: GET Camera.Menu.* (baseline), SET HDR=OFF, GET *, SET HDR=ON, GET *
+[23] persist-w    http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Menu.*
+=== [persist-w] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Menu.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:29 GMT
+Server: lighttpd/1.4.26
+
+0
+OK
+Camera.Menu.CardInfo.LifeTimeTotal=29.12
+Camera.Menu.CardInfo.RemainLifeTime=26.75
+Camera.Menu.CardInfo.RemainWrGBNum=0
+Camera.Menu.CardInfo.SizeOfDevSMART=0
+Camera.Menu.SD0=READY
+Camera.Menu.MemoryType=SDCARD
+Camera.Menu.DefMode=VIDEO
+Camera.Menu.FWversion=SC002_53_2507151656
+Camera.Menu.HDR=ON
+Camera.Menu.IsStreaming=NO
+Camera.Menu.LCDPower=OFF
+Camera.Menu.LoopingVideo=5MIN
+Camera.Menu.MTD=OFF
+Camera.Menu.VideoRes=1080P30
+Camera.Menu.PhotoBurst=3_1SEC
+Camera.Menu.PowerOffDelay=5SEC
+Camera.Menu.PowerSaving=OFF
+Camera.Menu.Property=
+Camera.Menu.Q-SHOT=ON
+Camera.Menu.SoundIndicator=ON
+Camera.Menu.SpotMeter=OFF
+Camera.Menu.StatusLights=ON
+Camera.Menu.TV=NONE
+Camera.Menu.TVSystem=PAL
+Camera.Menu.UIMode=VIDEO
+Camera.Menu.UpsideDown=Normal
+Camera.Menu.VideoClipTime=1MIN
+Camera.Menu.SoundRecord=ON
+Camera.Menu.VoiceSwitch=OFF
+Camera.Menu.VolAdj=4
+Camera.Menu.Flip.Sensor=OFF
+Camera.Menu.TimeLapseRecord=OFF
+Camera.Menu.Timelapse=OFF
+Camera.Menu.TimelapseTime=12H
+Camera.Menu.VideoTimeLapse=12H
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[24] persist-w    http://192.168.0.1/cgi-bin/Config.cgi?action=set&property=Camera.Menu.HDR&value=OFF
+=== [persist-w] GET http://192.168.0.1/cgi-bin/Config.cgi?action=set&property=Camera.Menu.HDR&value=OFF ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:29 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[25] persist-w    http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Menu.*
+=== [persist-w] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Menu.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:30 GMT
+Server: lighttpd/1.4.26
+
+0
+OK
+Camera.Menu.CardInfo.LifeTimeTotal=29.12
+Camera.Menu.CardInfo.RemainLifeTime=26.75
+Camera.Menu.CardInfo.RemainWrGBNum=0
+Camera.Menu.CardInfo.SizeOfDevSMART=0
+Camera.Menu.SD0=READY
+Camera.Menu.MemoryType=SDCARD
+Camera.Menu.DefMode=VIDEO
+Camera.Menu.FWversion=SC002_53_2507151656
+Camera.Menu.HDR=ON
+Camera.Menu.IsStreaming=NO
+Camera.Menu.LCDPower=OFF
+Camera.Menu.LoopingVideo=5MIN
+Camera.Menu.MTD=OFF
+Camera.Menu.VideoRes=1080P30
+Camera.Menu.PhotoBurst=3_1SEC
+Camera.Menu.PowerOffDelay=5SEC
+Camera.Menu.PowerSaving=OFF
+Camera.Menu.Property=
+Camera.Menu.Q-SHOT=ON
+Camera.Menu.SoundIndicator=ON
+Camera.Menu.SpotMeter=OFF
+Camera.Menu.StatusLights=ON
+Camera.Menu.TV=NONE
+Camera.Menu.TVSystem=PAL
+Camera.Menu.UIMode=VIDEO
+Camera.Menu.UpsideDown=Normal
+Camera.Menu.VideoClipTime=1MIN
+Camera.Menu.SoundRecord=ON
+Camera.Menu.VoiceSwitch=OFF
+Camera.Menu.VolAdj=4
+Camera.Menu.Flip.Sensor=OFF
+Camera.Menu.TimeLapseRecord=OFF
+Camera.Menu.Timelapse=OFF
+Camera.Menu.TimelapseTime=12H
+Camera.Menu.VideoTimeLapse=12H
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[26] persist-w    http://192.168.0.1/cgi-bin/Config.cgi?action=set&property=Camera.Menu.HDR&value=ON
+=== [persist-w] GET http://192.168.0.1/cgi-bin/Config.cgi?action=set&property=Camera.Menu.HDR&value=ON ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:30 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[27] persist-w    http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Menu.*
+=== [persist-w] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Menu.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:31 GMT
+Server: lighttpd/1.4.26
+
+0
+OK
+Camera.Menu.CardInfo.LifeTimeTotal=29.12
+Camera.Menu.CardInfo.RemainLifeTime=26.75
+Camera.Menu.CardInfo.RemainWrGBNum=0
+Camera.Menu.CardInfo.SizeOfDevSMART=0
+Camera.Menu.SD0=READY
+Camera.Menu.MemoryType=SDCARD
+Camera.Menu.DefMode=VIDEO
+Camera.Menu.FWversion=SC002_53_2507151656
+Camera.Menu.HDR=ON
+Camera.Menu.IsStreaming=NO
+Camera.Menu.LCDPower=OFF
+Camera.Menu.LoopingVideo=5MIN
+Camera.Menu.MTD=OFF
+Camera.Menu.VideoRes=1080P30
+Camera.Menu.PhotoBurst=3_1SEC
+Camera.Menu.PowerOffDelay=5SEC
+Camera.Menu.PowerSaving=OFF
+Camera.Menu.Property=
+Camera.Menu.Q-SHOT=ON
+Camera.Menu.SoundIndicator=ON
+Camera.Menu.SpotMeter=OFF
+Camera.Menu.StatusLights=ON
+Camera.Menu.TV=NONE
+Camera.Menu.TVSystem=PAL
+Camera.Menu.UIMode=VIDEO
+Camera.Menu.UpsideDown=Normal
+Camera.Menu.VideoClipTime=1MIN
+Camera.Menu.SoundRecord=ON
+Camera.Menu.VoiceSwitch=OFF
+Camera.Menu.VolAdj=4
+Camera.Menu.Flip.Sensor=OFF
+Camera.Menu.TimeLapseRecord=OFF
+Camera.Menu.Timelapse=OFF
+Camera.Menu.TimelapseTime=12H
+Camera.Menu.VideoTimeLapse=12H
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+
+----- Varredura getparamvalue com nomes reais -----
+[28] param        http://192.168.0.1/app/getparamvalue?name=HDR
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=HDR ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:32 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[29] param        http://192.168.0.1/app/getparamvalue?name=VideoRes
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=VideoRes ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:33 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[30] param        http://192.168.0.1/app/getparamvalue?name=LoopingVideo
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=LoopingVideo ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:33 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[31] param        http://192.168.0.1/app/getparamvalue?name=MTD
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=MTD ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:33 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[32] param        http://192.168.0.1/app/getparamvalue?name=PhotoBurst
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=PhotoBurst ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:33 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[33] param        http://192.168.0.1/app/getparamvalue?name=PowerOffDelay
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=PowerOffDelay ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:33 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[34] param        http://192.168.0.1/app/getparamvalue?name=PowerSaving
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=PowerSaving ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:33 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[35] param        http://192.168.0.1/app/getparamvalue?name=SoundIndicator
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=SoundIndicator ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:34 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[36] param        http://192.168.0.1/app/getparamvalue?name=SoundRecord
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=SoundRecord ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:34 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[37] param        http://192.168.0.1/app/getparamvalue?name=SpotMeter
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=SpotMeter ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:34 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[38] param        http://192.168.0.1/app/getparamvalue?name=StatusLights
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=StatusLights ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:34 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[39] param        http://192.168.0.1/app/getparamvalue?name=TVSystem
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=TVSystem ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:34 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[40] param        http://192.168.0.1/app/getparamvalue?name=UIMode
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=UIMode ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:35 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[41] param        http://192.168.0.1/app/getparamvalue?name=UpsideDown
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=UpsideDown ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:35 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[42] param        http://192.168.0.1/app/getparamvalue?name=VideoClipTime
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=VideoClipTime ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:35 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[43] param        http://192.168.0.1/app/getparamvalue?name=VoiceSwitch
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=VoiceSwitch ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:35 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[44] param        http://192.168.0.1/app/getparamvalue?name=VolAdj
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=VolAdj ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:35 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[45] param        http://192.168.0.1/app/getparamvalue?name=DefMode
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=DefMode ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:35 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[46] param        http://192.168.0.1/app/getparamvalue?name=LCDPower
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=LCDPower ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:36 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[47] param        http://192.168.0.1/app/getparamvalue?name=Q-SHOT
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=Q-SHOT ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:36 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[48] param        http://192.168.0.1/app/getparamvalue?name=Timelapse
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=Timelapse ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:36 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[49] param        http://192.168.0.1/app/getparamvalue?name=TimelapseTime
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=TimelapseTime ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:36 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[50] param        http://192.168.0.1/app/getparamvalue?name=VideoTimeLapse
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=VideoTimeLapse ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:36 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[51] param        http://192.168.0.1/app/getparamvalue?name=hdr
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=hdr ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:37 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[52] param        http://192.168.0.1/app/getparamvalue?name=video_res
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=video_res ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:37 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[53] param        http://192.168.0.1/app/getparamvalue?name=loop
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=loop ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:37 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[54] param        http://192.168.0.1/app/getparamvalue?name=motion_detect
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=motion_detect ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:37 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[55] param        http://192.168.0.1/app/getparamvalue?name=ParkMode
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=ParkMode ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:37 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[56] param        http://192.168.0.1/app/getparamvalue?name=EmergencyMode
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=EmergencyMode ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:37 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[57] param        http://192.168.0.1/app/getparamvalue?name=CycleRecord
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=CycleRecord ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:38 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[58] param        http://192.168.0.1/app/getparamvalue?name=GSensor
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=GSensor ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:38 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[59] param        http://192.168.0.1/app/getparamvalue?name=Mic
+=== [param] GET http://192.168.0.1/app/getparamvalue?name=Mic ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Mon, 08 Jun 2026 09:10:38 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+
+================================================================
+ SUMMARY (Fase 3)
+ Total requests:    59
+ HTTP/TCP success:  57
+================================================================
+
+=== PROBE_END ===
+total=59
+ok=57
+latest_photo=EMMC/Photo/F/20260607182633.jpg

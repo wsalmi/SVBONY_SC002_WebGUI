@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SVBONY SC002 Console</title>
+  <link rel="stylesheet" href="/static/app.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1>SVBONY SC002 <span class="muted">Console</span></h1>
+      <span class="target" title="Target IP">{{ target }}{% if mock %} <span class="badge mock">MOCK</span>{% endif %}</span>
+    </div>
+    <div class="status">
+      <span id="health-dot" class="dot offline" title="status"></span>
+      <span id="health-text">checando…</span>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav id="sidebar" class="sidebar"></nav>
+    <main id="main" class="main">
+      <section id="welcome" class="card">
+        <h2>Bem-vindo</h2>
+        <p>
+          Escolha um grupo no menu para listar as funções disponíveis.
+          Esta GUI orquestra os endpoints HTTP do firmware HiMobileCam que roda
+          na SC002 sem precisar do app oficial. O vídeo abre no VLC externo
+          usando a URL fornecida na aba <strong>Stream</strong>.
+        </p>
+        <p class="muted">
+          Endpoints marcados como <span class="badge known">known</span> ou
+          <span class="badge experimental">experimental</span> vêm da documentação do
+          SDK e ainda não foram confirmados nesta câmera específica — rode
+          <code>probe/probe_camera.sh</code> com a câmera conectada para validar.
+        </p>
+      </section>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

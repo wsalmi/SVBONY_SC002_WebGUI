@@ -1,0 +1,1034 @@
+================================================================
+ SVBONY SC002 — Probe Fase 2 (dirigida)
+ Data:    2026-06-07T21:26:29Z
+ Target:  192.168.0.1
+================================================================
+[01] app-probe    http://192.168.0.1/app/snap
+=== [app-probe] GET http://192.168.0.1/app/snap ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:29 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[02] app-probe    http://192.168.0.1/app/snapshot
+=== [app-probe] GET http://192.168.0.1/app/snapshot ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:30 GMT
+Server: lighttpd/1.4.26
+
+{"result":0,"info":"set success"}
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[03] app-probe    http://192.168.0.1/app/startsnap
+=== [app-probe] GET http://192.168.0.1/app/startsnap ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:30 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[04] app-probe    http://192.168.0.1/app/stopsnap
+=== [app-probe] GET http://192.168.0.1/app/stopsnap ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:30 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[05] app-probe    http://192.168.0.1/app/startrec
+=== [app-probe] GET http://192.168.0.1/app/startrec ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:30 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[06] app-probe    http://192.168.0.1/app/stoprec
+=== [app-probe] GET http://192.168.0.1/app/stoprec ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:30 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[07] app-probe    http://192.168.0.1/app/recstart
+=== [app-probe] GET http://192.168.0.1/app/recstart ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:31 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[08] app-probe    http://192.168.0.1/app/recstop
+=== [app-probe] GET http://192.168.0.1/app/recstop ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:31 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[09] app-probe    http://192.168.0.1/app/takephoto
+=== [app-probe] GET http://192.168.0.1/app/takephoto ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:31 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[10] app-probe    http://192.168.0.1/app/takesnap
+=== [app-probe] GET http://192.168.0.1/app/takesnap ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:31 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[11] app-probe    http://192.168.0.1/app/getparamvalue?name=video_res
+=== [app-probe] GET http://192.168.0.1/app/getparamvalue?name=video_res ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:32 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[12] app-probe    http://192.168.0.1/app/getparamvalue?name=language
+=== [app-probe] GET http://192.168.0.1/app/getparamvalue?name=language ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:32 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[13] app-probe    http://192.168.0.1/app/getparamvalue?name=videores
+=== [app-probe] GET http://192.168.0.1/app/getparamvalue?name=videores ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:32 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[14] app-probe    http://192.168.0.1/app/getparamvalue?name=hdr
+=== [app-probe] GET http://192.168.0.1/app/getparamvalue?name=hdr ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:32 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[15] app-probe    http://192.168.0.1/app/getparamvalue?name=loop
+=== [app-probe] GET http://192.168.0.1/app/getparamvalue?name=loop ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:33 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[16] app-probe    http://192.168.0.1/app/getparamvalue?name=poweroff_delay
+=== [app-probe] GET http://192.168.0.1/app/getparamvalue?name=poweroff_delay ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:33 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[17] app-probe    http://192.168.0.1/app/getfilelist
+=== [app-probe] GET http://192.168.0.1/app/getfilelist ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:33 GMT
+Server: lighttpd/1.4.26
+
+{"result":0,"info":[{"folder":"loop","files":[{"name":"EMMC/Normal/F/20270101001856.mp4","duration":125,"size":127857,"createtime":1798733936,"type":2},{"name":"EMMC/Normal/F/20270101001356.mp4","duration":300,"size":190065,"createtime":1798733636,"type":2},{"name":"EMMC/Normal/F/20270101000959.mp4","duration":190,"size":147800,"createtime":1798733399,"type":2},{"name":"EMMC/Normal/F/20270101000459.mp4","duration":300,"size":90567,"createtime":1798733099,"type":2},{"name":"EMMC/Normal/F/20261231235959.mp4","duration":300,"size":134806,"createtime":1798732799,"type":2},{"name":"EMMC/Normal/F/20261231235951.mp4","duration":14,"size":4081,"createtime":1798732791,"type":2},{"name":"EMMC/Normal/F/20260228190003.mp4","duration":133,"size":91360,"createtime":1772276403,"type":2},{"name":"EMMC/Normal/F/20260228185503.mp4","duration":300,"size":165758,"createtime":1772276103,"type":2},{"name":"EMMC/Normal/F/20260228185003.mp4","duration":300,"size":302719,"createtime":1772275803,"type":2},{"name":"EMMC/Normal/F/20260228184503.mp4","duration":300,"size":63955,"createtime":1772275503,"type":2},{"name":"EMMC/Normal/F/20260228184003.mp4","duration":300,"size":43757,"createtime":1772275203,"type":2},{"name":"EMMC/Normal/F/20260228183503.mp4","duration":300,"size":52017,"createtime":1772274903,"type":2},{"name":"EMMC/Normal/F/20260228183003.mp4","duration":300,"size":58467,"createtime":1772274603,"type":2},{"name":"EMMC/Normal/F/20260228182503.mp4","duration":300,"size":60063,"createtime":1772274303,"type":2},{"name":"EMMC/Normal/F/20260228182003.mp4","duration":300,"size":113293,"createtime":1772274003,"type":2},{"name":"EMMC/Normal/F/20260228181503.mp4","duration":300,"size":117707,"createtime":1772273703,"type":2},{"name":"EMMC/Normal/F/20260228180542.mp4","duration":193,"size":245845,"createtime":1772273142,"type":2},{"name":"EMMC/Normal/F/20260228180035.mp4","duration":197,"size":338242,"createtime":1772272835,"type":2}],"count":0},{"folder":"emr","files":[],"count":0},{"folder":"park","files":[],"count":0},{"folder":"event","files":[{"name":"EMMC/Photo/F/20260607182633.jpg","duration":0,"size":2090,"createtime":1780827993,"type":1},{"name":"EMMC/Photo/F/20260607182630.jpg","duration":0,"size":2032,"createtime":1780827990,"type":1},{"name":"EMMC/Photo/F/20260525083452.jpg","duration":0,"size":2033,"createtime":1779669292,"type":1},{"name":"EMMC/Photo/F/20260525083443.jpg","duration":0,"size":2090,"createtime":1779669283,"type":1},{"name":"EMMC/Photo/F/20260419184529.jpg","duration":0,"size":2038,"createtime":1776595529,"type":1},{"name":"EMMC/Photo/F/20260419184517.jpg","duration":0,"size":2015,"createtime":1776595517,"type":1},{"name":"EMMC/Photo/F/20260419184509.jpg","duration":0,"size":2055,"createtime":1776595509,"type":1},{"name":"EMMC/Photo/F/20260419184456.jpg","duration":0,"size":2061,"createtime":1776595496,"type":1}],"count":0}]}
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[18] app-probe    http://192.168.0.1/app/getfilelist?path=/sd/DCIM
+=== [app-probe] GET http://192.168.0.1/app/getfilelist?path=/sd/DCIM ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:34 GMT
+Server: lighttpd/1.4.26
+
+{"result":0,"info":[{"folder":"loop","files":[{"name":"EMMC/Normal/F/20270101001856.mp4","duration":125,"size":127857,"createtime":1798733936,"type":2},{"name":"EMMC/Normal/F/20270101001356.mp4","duration":300,"size":190065,"createtime":1798733636,"type":2},{"name":"EMMC/Normal/F/20270101000959.mp4","duration":190,"size":147800,"createtime":1798733399,"type":2},{"name":"EMMC/Normal/F/20270101000459.mp4","duration":300,"size":90567,"createtime":1798733099,"type":2},{"name":"EMMC/Normal/F/20261231235959.mp4","duration":300,"size":134806,"createtime":1798732799,"type":2},{"name":"EMMC/Normal/F/20261231235951.mp4","duration":14,"size":4081,"createtime":1798732791,"type":2},{"name":"EMMC/Normal/F/20260228190003.mp4","duration":133,"size":91360,"createtime":1772276403,"type":2},{"name":"EMMC/Normal/F/20260228185503.mp4","duration":300,"size":165758,"createtime":1772276103,"type":2},{"name":"EMMC/Normal/F/20260228185003.mp4","duration":300,"size":302719,"createtime":1772275803,"type":2},{"name":"EMMC/Normal/F/20260228184503.mp4","duration":300,"size":63955,"createtime":1772275503,"type":2},{"name":"EMMC/Normal/F/20260228184003.mp4","duration":300,"size":43757,"createtime":1772275203,"type":2},{"name":"EMMC/Normal/F/20260228183503.mp4","duration":300,"size":52017,"createtime":1772274903,"type":2},{"name":"EMMC/Normal/F/20260228183003.mp4","duration":300,"size":58467,"createtime":1772274603,"type":2},{"name":"EMMC/Normal/F/20260228182503.mp4","duration":300,"size":60063,"createtime":1772274303,"type":2},{"name":"EMMC/Normal/F/20260228182003.mp4","duration":300,"size":113293,"createtime":1772274003,"type":2},{"name":"EMMC/Normal/F/20260228181503.mp4","duration":300,"size":117707,"createtime":1772273703,"type":2},{"name":"EMMC/Normal/F/20260228180542.mp4","duration":193,"size":245845,"createtime":1772273142,"type":2},{"name":"EMMC/Normal/F/20260228180035.mp4","duration":197,"size":338242,"createtime":1772272835,"type":2}],"count":0},{"folder":"emr","files":[],"count":0},{"folder":"park","files":[],"count":0},{"folder":"event","files":[{"name":"EMMC/Photo/F/20260607182633.jpg","duration":0,"size":2090,"createtime":1780827993,"type":1},{"name":"EMMC/Photo/F/20260607182630.jpg","duration":0,"size":2032,"createtime":1780827990,"type":1},{"name":"EMMC/Photo/F/20260525083452.jpg","duration":0,"size":2033,"createtime":1779669292,"type":1},{"name":"EMMC/Photo/F/20260525083443.jpg","duration":0,"size":2090,"createtime":1779669283,"type":1},{"name":"EMMC/Photo/F/20260419184529.jpg","duration":0,"size":2038,"createtime":1776595529,"type":1},{"name":"EMMC/Photo/F/20260419184517.jpg","duration":0,"size":2015,"createtime":1776595517,"type":1},{"name":"EMMC/Photo/F/20260419184509.jpg","duration":0,"size":2055,"createtime":1776595509,"type":1},{"name":"EMMC/Photo/F/20260419184456.jpg","duration":0,"size":2061,"createtime":1776595496,"type":1}],"count":0}]}
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[19] app-probe    http://192.168.0.1/app/getfilelist?type=video
+=== [app-probe] GET http://192.168.0.1/app/getfilelist?type=video ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:34 GMT
+Server: lighttpd/1.4.26
+
+{"result":0,"info":[{"folder":"loop","files":[{"name":"EMMC/Normal/F/20270101001856.mp4","duration":125,"size":127857,"createtime":1798733936,"type":2},{"name":"EMMC/Normal/F/20270101001356.mp4","duration":300,"size":190065,"createtime":1798733636,"type":2},{"name":"EMMC/Normal/F/20270101000959.mp4","duration":190,"size":147800,"createtime":1798733399,"type":2},{"name":"EMMC/Normal/F/20270101000459.mp4","duration":300,"size":90567,"createtime":1798733099,"type":2},{"name":"EMMC/Normal/F/20261231235959.mp4","duration":300,"size":134806,"createtime":1798732799,"type":2},{"name":"EMMC/Normal/F/20261231235951.mp4","duration":14,"size":4081,"createtime":1798732791,"type":2},{"name":"EMMC/Normal/F/20260228190003.mp4","duration":133,"size":91360,"createtime":1772276403,"type":2},{"name":"EMMC/Normal/F/20260228185503.mp4","duration":300,"size":165758,"createtime":1772276103,"type":2},{"name":"EMMC/Normal/F/20260228185003.mp4","duration":300,"size":302719,"createtime":1772275803,"type":2},{"name":"EMMC/Normal/F/20260228184503.mp4","duration":300,"size":63955,"createtime":1772275503,"type":2},{"name":"EMMC/Normal/F/20260228184003.mp4","duration":300,"size":43757,"createtime":1772275203,"type":2},{"name":"EMMC/Normal/F/20260228183503.mp4","duration":300,"size":52017,"createtime":1772274903,"type":2},{"name":"EMMC/Normal/F/20260228183003.mp4","duration":300,"size":58467,"createtime":1772274603,"type":2},{"name":"EMMC/Normal/F/20260228182503.mp4","duration":300,"size":60063,"createtime":1772274303,"type":2},{"name":"EMMC/Normal/F/20260228182003.mp4","duration":300,"size":113293,"createtime":1772274003,"type":2},{"name":"EMMC/Normal/F/20260228181503.mp4","duration":300,"size":117707,"createtime":1772273703,"type":2},{"name":"EMMC/Normal/F/20260228180542.mp4","duration":193,"size":245845,"createtime":1772273142,"type":2},{"name":"EMMC/Normal/F/20260228180035.mp4","duration":197,"size":338242,"createtime":1772272835,"type":2}],"count":0},{"folder":"emr","files":[],"count":0},{"folder":"park","files":[],"count":0},{"folder":"event","files":[{"name":"EMMC/Photo/F/20260607182633.jpg","duration":0,"size":2090,"createtime":1780827993,"type":1},{"name":"EMMC/Photo/F/20260607182630.jpg","duration":0,"size":2032,"createtime":1780827990,"type":1},{"name":"EMMC/Photo/F/20260525083452.jpg","duration":0,"size":2033,"createtime":1779669292,"type":1},{"name":"EMMC/Photo/F/20260525083443.jpg","duration":0,"size":2090,"createtime":1779669283,"type":1},{"name":"EMMC/Photo/F/20260419184529.jpg","duration":0,"size":2038,"createtime":1776595529,"type":1},{"name":"EMMC/Photo/F/20260419184517.jpg","duration":0,"size":2015,"createtime":1776595517,"type":1},{"name":"EMMC/Photo/F/20260419184509.jpg","duration":0,"size":2055,"createtime":1776595509,"type":1},{"name":"EMMC/Photo/F/20260419184456.jpg","duration":0,"size":2061,"createtime":1776595496,"type":1}],"count":0}]}
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[20] app-probe    http://192.168.0.1/app/getfilelist?type=photo
+=== [app-probe] GET http://192.168.0.1/app/getfilelist?type=photo ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:35 GMT
+Server: lighttpd/1.4.26
+
+{"result":0,"info":[{"folder":"loop","files":[{"name":"EMMC/Normal/F/20270101001856.mp4","duration":125,"size":127857,"createtime":1798733936,"type":2},{"name":"EMMC/Normal/F/20270101001356.mp4","duration":300,"size":190065,"createtime":1798733636,"type":2},{"name":"EMMC/Normal/F/20270101000959.mp4","duration":190,"size":147800,"createtime":1798733399,"type":2},{"name":"EMMC/Normal/F/20270101000459.mp4","duration":300,"size":90567,"createtime":1798733099,"type":2},{"name":"EMMC/Normal/F/20261231235959.mp4","duration":300,"size":134806,"createtime":1798732799,"type":2},{"name":"EMMC/Normal/F/20261231235951.mp4","duration":14,"size":4081,"createtime":1798732791,"type":2},{"name":"EMMC/Normal/F/20260228190003.mp4","duration":133,"size":91360,"createtime":1772276403,"type":2},{"name":"EMMC/Normal/F/20260228185503.mp4","duration":300,"size":165758,"createtime":1772276103,"type":2},{"name":"EMMC/Normal/F/20260228185003.mp4","duration":300,"size":302719,"createtime":1772275803,"type":2},{"name":"EMMC/Normal/F/20260228184503.mp4","duration":300,"size":63955,"createtime":1772275503,"type":2},{"name":"EMMC/Normal/F/20260228184003.mp4","duration":300,"size":43757,"createtime":1772275203,"type":2},{"name":"EMMC/Normal/F/20260228183503.mp4","duration":300,"size":52017,"createtime":1772274903,"type":2},{"name":"EMMC/Normal/F/20260228183003.mp4","duration":300,"size":58467,"createtime":1772274603,"type":2},{"name":"EMMC/Normal/F/20260228182503.mp4","duration":300,"size":60063,"createtime":1772274303,"type":2},{"name":"EMMC/Normal/F/20260228182003.mp4","duration":300,"size":113293,"createtime":1772274003,"type":2},{"name":"EMMC/Normal/F/20260228181503.mp4","duration":300,"size":117707,"createtime":1772273703,"type":2},{"name":"EMMC/Normal/F/20260228180542.mp4","duration":193,"size":245845,"createtime":1772273142,"type":2},{"name":"EMMC/Normal/F/20260228180035.mp4","duration":197,"size":338242,"createtime":1772272835,"type":2}],"count":0},{"folder":"emr","files":[],"count":0},{"folder":"park","files":[],"count":0},{"folder":"event","files":[{"name":"EMMC/Photo/F/20260607182633.jpg","duration":0,"size":2090,"createtime":1780827993,"type":1},{"name":"EMMC/Photo/F/20260607182630.jpg","duration":0,"size":2032,"createtime":1780827990,"type":1},{"name":"EMMC/Photo/F/20260525083452.jpg","duration":0,"size":2033,"createtime":1779669292,"type":1},{"name":"EMMC/Photo/F/20260525083443.jpg","duration":0,"size":2090,"createtime":1779669283,"type":1},{"name":"EMMC/Photo/F/20260419184529.jpg","duration":0,"size":2038,"createtime":1776595529,"type":1},{"name":"EMMC/Photo/F/20260419184517.jpg","duration":0,"size":2015,"createtime":1776595517,"type":1},{"name":"EMMC/Photo/F/20260419184509.jpg","duration":0,"size":2055,"createtime":1776595509,"type":1},{"name":"EMMC/Photo/F/20260419184456.jpg","duration":0,"size":2061,"createtime":1776595496,"type":1}],"count":0}]}
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[21] app-probe    http://192.168.0.1/app/getfileinfo
+=== [app-probe] GET http://192.168.0.1/app/getfileinfo ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:35 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[22] app-probe    http://192.168.0.1/app/listfiles
+=== [app-probe] GET http://192.168.0.1/app/listfiles ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:35 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[23] app-probe    http://192.168.0.1/app/getthumbnail
+=== [app-probe] GET http://192.168.0.1/app/getthumbnail ===
+HTTP/1.1 200 OK
+Content-Length: 0
+Date: Sun, 07 Jun 2026 18:26:36 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[24] app-probe    http://192.168.0.1/app/getphoto
+=== [app-probe] GET http://192.168.0.1/app/getphoto ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:36 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[25] app-probe    http://192.168.0.1/app/getvideo
+=== [app-probe] GET http://192.168.0.1/app/getvideo ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:36 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[26] app-probe    http://192.168.0.1/app/getmode
+=== [app-probe] GET http://192.168.0.1/app/getmode ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:36 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[27] app-probe    http://192.168.0.1/app/setmode?mode=video
+=== [app-probe] GET http://192.168.0.1/app/setmode?mode=video ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:36 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[28] app-probe    http://192.168.0.1/app/setmode?mode=photo
+=== [app-probe] GET http://192.168.0.1/app/setmode?mode=photo ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:36 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[29] app-probe    http://192.168.0.1/app/getworkmode
+=== [app-probe] GET http://192.168.0.1/app/getworkmode ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:36 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[30] app-probe    http://192.168.0.1/app/getformat
+=== [app-probe] GET http://192.168.0.1/app/getformat ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:36 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[31] app-probe    http://192.168.0.1/app/getwifiinfo
+=== [app-probe] GET http://192.168.0.1/app/getwifiinfo ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:36 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[32] app-probe    http://192.168.0.1/app/getwifi
+=== [app-probe] GET http://192.168.0.1/app/getwifi ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:36 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[33] app-probe    http://192.168.0.1/app/getap
+=== [app-probe] GET http://192.168.0.1/app/getap ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:37 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[34] app-probe    http://192.168.0.1/app/getapinfo
+=== [app-probe] GET http://192.168.0.1/app/getapinfo ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:37 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[35] app-probe    http://192.168.0.1/app/getsysinfo
+=== [app-probe] GET http://192.168.0.1/app/getsysinfo ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:37 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[36] app-probe    http://192.168.0.1/app/getstatus
+=== [app-probe] GET http://192.168.0.1/app/getstatus ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:37 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[37] app-probe    http://192.168.0.1/app/getsysstatus
+=== [app-probe] GET http://192.168.0.1/app/getsysstatus ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:38 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[38] app-probe    http://192.168.0.1/app/gettime
+=== [app-probe] GET http://192.168.0.1/app/gettime ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:38 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[39] app-probe    http://192.168.0.1/app/getconfig
+=== [app-probe] GET http://192.168.0.1/app/getconfig ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:38 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[40] app-probe    http://192.168.0.1/app/getsetting
+=== [app-probe] GET http://192.168.0.1/app/getsetting ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:38 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[41] app-probe    http://192.168.0.1/app/getall
+=== [app-probe] GET http://192.168.0.1/app/getall ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:38 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[42] app-probe    http://192.168.0.1/app/keepalive
+=== [app-probe] GET http://192.168.0.1/app/keepalive ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:38 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[43] app-probe    http://192.168.0.1/app/heartbeat
+=== [app-probe] GET http://192.168.0.1/app/heartbeat ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:38 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[44] app-probe    http://192.168.0.1/app/ping
+=== [app-probe] GET http://192.168.0.1/app/ping ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Sun, 07 Jun 2026 18:26:38 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[45] cfg-set      http://192.168.0.1/cgi-bin/Config.cgi?action=set&property=Camera.Preview.MJPEG.status&value=Run
+=== [cfg-set] GET http://192.168.0.1/cgi-bin/Config.cgi?action=set&property=Camera.Preview.MJPEG.status&value=Run ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:39 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[46] cfg-set      http://192.168.0.1/cgi-bin/Config.cgi?action=set&property=Camera.Preview.MJPEG.status&value=Standby
+=== [cfg-set] GET http://192.168.0.1/cgi-bin/Config.cgi?action=set&property=Camera.Preview.MJPEG.status&value=Standby ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:39 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[47] cfg-set      http://192.168.0.1/cgi-bin/Config.cgi?action=set&property=Camera.Menu.IsStreaming&value=YES
+=== [cfg-set] GET http://192.168.0.1/cgi-bin/Config.cgi?action=set&property=Camera.Menu.IsStreaming&value=YES ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:39 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[48] cfg-set      http://192.168.0.1/cgi-bin/Config.cgi?action=set&property=Camera.Menu.IsStreaming&value=NO
+=== [cfg-set] GET http://192.168.0.1/cgi-bin/Config.cgi?action=set&property=Camera.Menu.IsStreaming&value=NO ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:39 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+
+----- TESTE DE PERSISTÊNCIA -----
+Vamos virar SoundIndicator OFF, ler de volta, virar ON, ler de volta.
+Se o GET refletir o valor que mandamos, o SET persiste.
+[49] persist      http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Menu.SoundIndicator
+=== [persist] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Menu.SoundIndicator ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:39 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[50] persist      http://192.168.0.1/cgi-bin/Config.cgi?action=set&property=Camera.Menu.SoundIndicator&value=OFF
+=== [persist] GET http://192.168.0.1/cgi-bin/Config.cgi?action=set&property=Camera.Menu.SoundIndicator&value=OFF ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:39 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[51] persist      http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Menu.SoundIndicator
+=== [persist] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Menu.SoundIndicator ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:40 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[52] persist      http://192.168.0.1/cgi-bin/Config.cgi?action=set&property=Camera.Menu.SoundIndicator&value=ON
+=== [persist] GET http://192.168.0.1/cgi-bin/Config.cgi?action=set&property=Camera.Menu.SoundIndicator&value=ON ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:40 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[53] persist      http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Menu.SoundIndicator
+=== [persist] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Menu.SoundIndicator ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:41 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+
+----- TESTE de SET VIA /app/setparamvalue -----
+[54] app-param    http://192.168.0.1/app/getparamvalue?name=SoundIndicator
+=== [app-param] GET http://192.168.0.1/app/getparamvalue?name=SoundIndicator ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:41 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[55] app-param    http://192.168.0.1/app/getparamvalue?name=soundindicator
+=== [app-param] GET http://192.168.0.1/app/getparamvalue?name=soundindicator ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:41 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[56] app-param    http://192.168.0.1/app/getparamvalue?name=sound_indicator
+=== [app-param] GET http://192.168.0.1/app/getparamvalue?name=sound_indicator ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:41 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[57] app-param    http://192.168.0.1/app/getparamvalue?name=sound_ind
+=== [app-param] GET http://192.168.0.1/app/getparamvalue?name=sound_ind ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:42 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[58] app-param    http://192.168.0.1/app/getparamvalue?name=beep
+=== [app-param] GET http://192.168.0.1/app/getparamvalue?name=beep ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 18:26:42 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+
+----- TCP probe RTSP -----
+[59] tcp-probe    tcp://192.168.0.1:554
+=== [tcp-probe] TCP 192.168.0.1:554 ===
+Connection to 192.168.0.1 port 554 [tcp/rtsp] succeeded!
+OPEN
+=== END (exit_code=0) ===
+
+[60] tcp-probe    tcp://192.168.0.1:6035
+=== [tcp-probe] TCP 192.168.0.1:6035 ===
+Connection to 192.168.0.1 port 6035 [tcp/*] succeeded!
+OPEN
+=== END (exit_code=0) ===
+
+[61] tcp-probe    tcp://192.168.0.1:7070
+=== [tcp-probe] TCP 192.168.0.1:7070 ===
+CLOSED_OR_FILTERED
+=== END (exit_code=0) ===
+
+[62] tcp-probe    tcp://192.168.0.1:8554
+=== [tcp-probe] TCP 192.168.0.1:8554 ===
+CLOSED_OR_FILTERED
+=== END (exit_code=0) ===
+
+
+================================================================
+ SUMMARY (Fase 2)
+ Total requests:    62
+ HTTP/TCP success:  60
+================================================================
+
+=== PROBE_END ===
+total=62
+ok=60

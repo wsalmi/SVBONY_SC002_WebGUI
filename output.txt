@@ -1,0 +1,116 @@
+curl -sS -i --http1.1 "${COMMON[@]}" \
+  'http://'"${TARGET}"'/cgi-bin/Config.cgi?action=get&property=Camera.Preview.*'
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 17:02:59 GMT
+Server: lighttpd/1.4.26
+
+0
+OK
+Camera.Preview.MJPEG.TimeStamp=ACTIVE
+Camera.Preview.MJPEG.TimeStamp.day=7
+Camera.Preview.MJPEG.TimeStamp.hour=17
+Camera.Preview.MJPEG.TimeStamp.minute=2
+Camera.Preview.MJPEG.TimeStamp.month=6
+Camera.Preview.MJPEG.TimeStamp.second=59
+Camera.Preview.MJPEG.TimeStamp.year=2026
+Camera.Preview.MJPEG.WarningMSG=ACTIVE
+Camera.Preview.MJPEG.bitrate=2000000
+Camera.Preview.MJPEG.fps=30
+Camera.Preview.MJPEG.h=1280
+Camera.Preview.MJPEG.status=Standby
+Camera.Preview.MJPEG.w=720
+Camera.Preview.RTSP.av=4
+Camera.Preview.MJPEG.status.MovieAudio=ON
+Camera.Preview.MJPEG.status.mode=Videomode
+Camera.Preview.MJPEG.status.record=Standby
+0
+OK
+curl -sS -i --http1.1 "${COMMON[@]}" \
+  'http://'"${TARGET}"'/cgi-bin/Config.cgi?action=get&property=Camera.Menu.*'
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 17:03:53 GMT
+Server: lighttpd/1.4.26
+
+0
+OK
+Camera.Menu.CardInfo.LifeTimeTotal=29.12
+Camera.Menu.CardInfo.RemainLifeTime=26.92
+Camera.Menu.CardInfo.RemainWrGBNum=0
+Camera.Menu.CardInfo.SizeOfDevSMART=0
+Camera.Menu.SD0=READY
+Camera.Menu.MemoryType=SDCARD
+Camera.Menu.DefMode=VIDEO
+Camera.Menu.FWversion=SC002_53_2507151656
+Camera.Menu.HDR=ON
+Camera.Menu.IsStreaming=NO
+Camera.Menu.LCDPower=OFF
+Camera.Menu.LoopingVideo=5MIN
+Camera.Menu.MTD=OFF
+Camera.Menu.VideoRes=1080P30
+Camera.Menu.PhotoBurst=3_1SEC
+Camera.Menu.PowerOffDelay=5SEC
+Camera.Menu.PowerSaving=OFF
+Camera.Menu.Property=
+Camera.Menu.Q-SHOT=ON
+Camera.Menu.SoundIndicator=ON
+Camera.Menu.SpotMeter=OFF
+Camera.Menu.StatusLights=ON
+Camera.Menu.TV=NONE
+Camera.Menu.TVSystem=PAL
+Camera.Menu.UIMode=VIDEO
+Camera.Menu.UpsideDown=Normal
+Camera.Menu.VideoClipTime=1MIN
+Camera.Menu.SoundRecord=ON
+Camera.Menu.VoiceSwitch=MID
+Camera.Menu.VolAdj=2
+Camera.Menu.Flip.Sensor=OFF
+Camera.Menu.TimeLapseRecord=OFF
+Camera.Menu.Timelapse=OFF
+Camera.Menu.TimelapseTime=12H
+Camera.Menu.VideoTimeLapse=12H
+
+$ curl -sS -i --http1.1 "${COMMON[@]}" \
+  'http://'"${TARGET}"'/cgi-bin/Config.cgi?action=set&property=TimeSettings&value=2026$06$05$20$08$36'
+
+curl -sS -i --http1.1 "${COMMON[@]}" \
+  'http://'"${TARGET}"'/cgi-bin/Config.cgi?action=set&property=TimeSettings&value=2026$06$05$20$08$37'
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Sun, 07 Jun 2026 17:04:14 GMT
+Server: lighttpd/1.4.26
+
+0
+OK
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:08:36 GMT
+Server: lighttpd/1.4.26
+
+0
+OK
+
+$ curl -sS -i --http1.1 "${COMMON[@]}" \
+  "http://${TARGET}/app/getbatteryinfo"
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:08:58 GMT
+Server: lighttpd/1.4.26
+
+{"result":0,"info":{"capacity":4,"charge":1}}%     
+
+curl -sS -i --http1.1 "${COMMON[@]}" \
+  "http://${TARGET}/app/getsnapinfo"
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:09:26 GMT
+Server: lighttpd/1.4.26
+
+{"result":0,"info":{"is_working":0,"snap_mode":3,"snap_cnt":200,"snap_seq":0}}%   

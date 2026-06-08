@@ -1,0 +1,4037 @@
+############################################################
+#  HONEYPOT CARDPUTER - CAPTURAS DE CREDENCIAIS (Plain Text)
+#  Uso restrito a pesquisa/defesa autorizada.
+############################################################
+
+============================================================
+Uptime (ms) : 105378
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/hisnet/getdeviceattr.cgi? HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 159912
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/hisnet/getdeviceattr.cgi? HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 160019
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/hisnet/getdeviceattr.cgi? HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 160131
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Preview.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 160239
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Preview.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 160347
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/hisnet/getdeviceattr.cgi? HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 160454
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/hisnet/getdeviceattr.cgi? HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 170546
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Preview.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 170655
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Preview.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 170763
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/hisnet/getdeviceattr.cgi? HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 170871
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/hisnet/getdeviceattr.cgi? HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 170978
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Preview.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 171087
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Preview.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 171205
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/hisnet/getdeviceattr.cgi? HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 171311
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/hisnet/getdeviceattr.cgi? HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 54426
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Preview.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 54536
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Preview.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 54643
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/hisnet/getdeviceattr.cgi? HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 54752
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/hisnet/getdeviceattr.cgi? HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 54860
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Preview.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 54979
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Preview.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 55088
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/hisnet/getdeviceattr.cgi? HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 55196
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/hisnet/getdeviceattr.cgi? HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 50181
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Preview.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 50293
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Preview.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 50404
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 50529
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 50638
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=set&property=TimeSettings&value=2026$06$05$20$08$36 HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 50944
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 51057
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 51165
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 51399
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getsnapinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 51509
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getsnapinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 51732
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=set&property=TimeSettings&value=2026$06$05$20$08$37 HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 51997
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 52108
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 52215
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 52324
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 52432
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 52555
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 53468
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 53576
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 53677
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 53911
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 54015
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 54116
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 54230
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 54331
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 54575
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 56476
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 56580
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 56682
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 56910
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 57027
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 57130
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 57269
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 57370
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 57472
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 59469
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 59584
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 59686
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 59915
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 60017
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 60118
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 60240
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 60393
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 60508
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 62505
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 62607
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 62709
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 62937
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 63041
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 63143
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 63255
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 63357
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 63461
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 65471
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 65573
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 65675
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 65898
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 66035
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 66136
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 66238
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 66339
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 66440
+Protocolo   : HTTP
+IP Cliente  : 192.168.0.2
+Esquema     : Request (sem credencial)
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 178865
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 179382
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 179885
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 180389
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 180890
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 181394
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 181916
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getsnapinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 182419
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 182935
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 183441
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 183942
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getsnapinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 184444
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 184947
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 185451
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 185964
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getsnapinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 186467
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 186970
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 187075
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 187577
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 188080
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 188615
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 189119
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 189621
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 190125
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 190631
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 191134
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 191638
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 192153
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 192256
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 192757
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 193260
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 193764
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 194269
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 194784
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 195288
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 195792
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 196295
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 196826
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 197330
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 197445
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 197549
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 198052
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 198555
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 199057
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 199561
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 200077
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 200581
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 201085
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 201587
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 202091
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 202594
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 203097
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 203627
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 204134
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 204636
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 205139
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 205641
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 206145
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 206659
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 206764
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 207268
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 207770
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 208273
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 208775
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 209289
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 209792
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 210295
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 210799
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 211322
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 211425
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 211928
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 212444
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 212948
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 213452
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 213955
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 214458
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 214961
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 215476
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 215978
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 216483
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 216986
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 217491
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 217993
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 218515
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 219032
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 219535
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 219637
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 219741
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 220246
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 220748
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 221262
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 221765
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 222269
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 222771
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 222876
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 223379
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 223893
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 224396
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 224915
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 225018
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 225120
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 225223
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 225725
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 226240
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 226742
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 227245
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 227347
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 227850
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 228352
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 228468
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /cgi-bin/Config.cgi?action=get&property=Camera.Menu.* HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 228972
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 229474
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 229976
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 230478
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 231001
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 231515
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 232020
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 232522
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+
+============================================================
+Uptime (ms) : 233027
+Protocolo   : AnyPort
+Porta Dest. : 80
+IP Cliente  : 192.168.0.2
+Esquema     : Conn:80
+Auth Bruto  : 
+------------------ REQUEST COMPLETO ------------------------
+Porta requisitada: 80
+Dados:
+GET /app/getbatteryinfo HTTP/1.1
+Host: 192.168.0.1
+Accept: */*
+Accept-Language: pt-BR;q=1, en-BR;q=0.9, es-419;q=0.8
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+
+------------------------------------------------------------
+============================================================
+

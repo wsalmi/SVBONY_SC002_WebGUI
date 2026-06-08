@@ -1,0 +1,2507 @@
+================================================================
+ SVBONY SC002 / HiMobileCam HTTP Probe
+ Data:    2026-06-07T20:47:28Z
+ Target:  192.168.0.1
+ Timeout: 3s
+ UA:      HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)
+================================================================
+
+[01] hisnet       http://192.168.0.1/cgi-bin/hisnet/getdeviceattr.cgi?
+=== [hisnet] GET http://192.168.0.1/cgi-bin/hisnet/getdeviceattr.cgi? ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:49 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[02] hisnet       http://192.168.0.1/cgi-bin/hisnet/getsdstatus.cgi
+=== [hisnet] GET http://192.168.0.1/cgi-bin/hisnet/getsdstatus.cgi ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:49 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[03] hisnet       http://192.168.0.1/cgi-bin/hisnet/getsystime.cgi
+=== [hisnet] GET http://192.168.0.1/cgi-bin/hisnet/getsystime.cgi ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:49 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[04] hisnet       http://192.168.0.1/cgi-bin/hisnet/getbatterycapacity.cgi
+=== [hisnet] GET http://192.168.0.1/cgi-bin/hisnet/getbatterycapacity.cgi ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:49 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[05] hisnet       http://192.168.0.1/cgi-bin/hisnet/getwifi.cgi
+=== [hisnet] GET http://192.168.0.1/cgi-bin/hisnet/getwifi.cgi ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:50 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[06] hisnet       http://192.168.0.1/cgi-bin/hisnet/getfilecount.cgi
+=== [hisnet] GET http://192.168.0.1/cgi-bin/hisnet/getfilecount.cgi ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:50 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[07] hisnet       http://192.168.0.1/cgi-bin/hisnet/getfilelist.cgi
+=== [hisnet] GET http://192.168.0.1/cgi-bin/hisnet/getfilelist.cgi ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:50 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[08] hisnet       http://192.168.0.1/cgi-bin/hisnet/getworkstate.cgi
+=== [hisnet] GET http://192.168.0.1/cgi-bin/hisnet/getworkstate.cgi ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:50 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[09] hisnet       http://192.168.0.1/cgi-bin/hisnet/getworkmode.cgi
+=== [hisnet] GET http://192.168.0.1/cgi-bin/hisnet/getworkmode.cgi ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:50 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[10] hisnet       http://192.168.0.1/cgi-bin/hisnet/ty.cgi
+=== [hisnet] GET http://192.168.0.1/cgi-bin/hisnet/ty.cgi ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:50 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[11] hisnet       http://192.168.0.1/cgi-bin/hisnet/client.cgi
+=== [hisnet] GET http://192.168.0.1/cgi-bin/hisnet/client.cgi ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:51 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[12] hisnet       http://192.168.0.1/cgi-bin/hisnet/checkupgradepktinfo.cgi
+=== [hisnet] GET http://192.168.0.1/cgi-bin/hisnet/checkupgradepktinfo.cgi ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:51 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[13] app          http://192.168.0.1/app/getmediainfo
+=== [app] GET http://192.168.0.1/app/getmediainfo ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:51 GMT
+Server: lighttpd/1.4.26
+
+{"result":0,"info":{"rtsp":"rtsp://192.168.0.1/live/tcp/ch1","transport":"tcp","port":"6035"}}
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[14] app          http://192.168.0.1/app/getdeviceattr
+=== [app] GET http://192.168.0.1/app/getdeviceattr ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:51 GMT
+Server: lighttpd/1.4.26
+
+{"result":0,"info":{"uuid":"80:9d:65:e4:23:32","softver":"SC002_53_2507151656","hwver":"SC002_53_2507151656","ssid":"SC002_2332\n","bssid":"80:9d:65:e4:23:32","camnum":1,"sdkver":"1.0"}}
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[15] app          http://192.168.0.1/app/getsdinfo
+=== [app] GET http://192.168.0.1/app/getsdinfo ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:51 GMT
+Server: lighttpd/1.4.26
+
+{"result":0,"info":{"status":0,"free":27561,"total":29816}}
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[16] app          http://192.168.0.1/app/getproductinfo
+=== [app] GET http://192.168.0.1/app/getproductinfo ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:52 GMT
+Server: lighttpd/1.4.26
+
+{"result":0,"info":{"model":"DVR","company":"SGK","soc":"SOC"}}
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[17] app          http://192.168.0.1/app/getbatteryinfo
+=== [app] GET http://192.168.0.1/app/getbatteryinfo ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:52 GMT
+Server: lighttpd/1.4.26
+
+{"result":0,"info":{"capacity":4,"charge":1}}
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[18] app          http://192.168.0.1/app/getrecduration
+=== [app] GET http://192.168.0.1/app/getrecduration ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:52 GMT
+Server: lighttpd/1.4.26
+
+{"result":0,"info":{"duration":0}}
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[19] app          http://192.168.0.1/app/getsnapinfo
+=== [app] GET http://192.168.0.1/app/getsnapinfo ===
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:52 GMT
+Server: lighttpd/1.4.26
+
+{"result":0,"info":{"is_working":0,"snap_mode":3,"snap_cnt":200,"snap_seq":0}}
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[20] app          http://192.168.0.1/app/getwifiinfo
+=== [app] GET http://192.168.0.1/app/getwifiinfo ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:52 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[21] app          http://192.168.0.1/app/getversion
+=== [app] GET http://192.168.0.1/app/getversion ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:52 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[22] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.*
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:52 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[23] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Menu.*
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Menu.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:52 GMT
+Server: lighttpd/1.4.26
+
+0
+OK
+Camera.Menu.CardInfo.LifeTimeTotal=29.12
+Camera.Menu.CardInfo.RemainLifeTime=26.92
+Camera.Menu.CardInfo.RemainWrGBNum=0
+Camera.Menu.CardInfo.SizeOfDevSMART=0
+Camera.Menu.SD0=READY
+Camera.Menu.MemoryType=SDCARD
+Camera.Menu.DefMode=VIDEO
+Camera.Menu.FWversion=SC002_53_2507151656
+Camera.Menu.HDR=ON
+Camera.Menu.IsStreaming=NO
+Camera.Menu.LCDPower=OFF
+Camera.Menu.LoopingVideo=5MIN
+Camera.Menu.MTD=OFF
+Camera.Menu.VideoRes=1080P30
+Camera.Menu.PhotoBurst=3_1SEC
+Camera.Menu.PowerOffDelay=5SEC
+Camera.Menu.PowerSaving=OFF
+Camera.Menu.Property=
+Camera.Menu.Q-SHOT=ON
+Camera.Menu.SoundIndicator=ON
+Camera.Menu.SpotMeter=OFF
+Camera.Menu.StatusLights=ON
+Camera.Menu.TV=NONE
+Camera.Menu.TVSystem=PAL
+Camera.Menu.UIMode=VIDEO
+Camera.Menu.UpsideDown=Normal
+Camera.Menu.VideoClipTime=1MIN
+Camera.Menu.SoundRecord=ON
+Camera.Menu.VoiceSwitch=MID
+Camera.Menu.VolAdj=2
+Camera.Menu.Flip.Sensor=OFF
+Camera.Menu.TimeLapseRecord=OFF
+Camera.Menu.Timelapse=OFF
+Camera.Menu.TimelapseTime=12H
+Camera.Menu.VideoTimeLapse=12H
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[24] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Preview.*
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Preview.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:52 GMT
+Server: lighttpd/1.4.26
+
+0
+OK
+Camera.Preview.MJPEG.TimeStamp=ACTIVE
+Camera.Preview.MJPEG.TimeStamp.day=5
+Camera.Preview.MJPEG.TimeStamp.hour=20
+Camera.Preview.MJPEG.TimeStamp.minute=51
+Camera.Preview.MJPEG.TimeStamp.month=6
+Camera.Preview.MJPEG.TimeStamp.second=52
+Camera.Preview.MJPEG.TimeStamp.year=2026
+Camera.Preview.MJPEG.WarningMSG=ACTIVE
+Camera.Preview.MJPEG.bitrate=2000000
+Camera.Preview.MJPEG.fps=30
+Camera.Preview.MJPEG.h=1280
+Camera.Preview.MJPEG.status=Standby
+Camera.Preview.MJPEG.w=720
+Camera.Preview.RTSP.av=4
+Camera.Preview.MJPEG.status.MovieAudio=ON
+Camera.Preview.MJPEG.status.mode=Videomode
+Camera.Preview.MJPEG.status.record=Standby
+0
+OK
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[25] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Setting.*
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Setting.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:52 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[26] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Network.*
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Network.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:52 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[27] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.WiFi.*
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.WiFi.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[28] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.SD.*
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.SD.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[29] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.System.*
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.System.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[30] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Photo.*
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Photo.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[31] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Video.*
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Video.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[32] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.HDR.*
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.HDR.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[33] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Audio.*
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Audio.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[34] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.MTD.*
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.MTD.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[35] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.TimeLapse.*
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.TimeLapse.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[36] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Battery.*
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Battery.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[37] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Stream.*
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=Camera.Stream.* ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[38] config-get   http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=TimeSettings
+=== [config-get] GET http://192.168.0.1/cgi-bin/Config.cgi?action=get&property=TimeSettings ===
+HTTP/1.1 200 OK
+Content-type: text/plain
+Transfer-Encoding: chunked
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[39] cap-common   http://192.168.0.1/cgi-bin/hisnet/getcommparamcapability.cgi?-type=POWERON_ACTION
+=== [cap-common] GET http://192.168.0.1/cgi-bin/hisnet/getcommparamcapability.cgi?-type=POWERON_ACTION ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[40] param-common http://192.168.0.1/cgi-bin/hisnet/getcommparam.cgi?-type=POWERON_ACTION
+=== [param-common] GET http://192.168.0.1/cgi-bin/hisnet/getcommparam.cgi?-type=POWERON_ACTION ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[41] cap-common   http://192.168.0.1/cgi-bin/hisnet/getcommparamcapability.cgi?-type=FOV
+=== [cap-common] GET http://192.168.0.1/cgi-bin/hisnet/getcommparamcapability.cgi?-type=FOV ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[42] param-common http://192.168.0.1/cgi-bin/hisnet/getcommparam.cgi?-type=FOV
+=== [param-common] GET http://192.168.0.1/cgi-bin/hisnet/getcommparam.cgi?-type=FOV ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[43] cap-common   http://192.168.0.1/cgi-bin/hisnet/getcommparamcapability.cgi?-type=DATE_FORMAT
+=== [cap-common] GET http://192.168.0.1/cgi-bin/hisnet/getcommparamcapability.cgi?-type=DATE_FORMAT ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[44] param-common http://192.168.0.1/cgi-bin/hisnet/getcommparam.cgi?-type=DATE_FORMAT
+=== [param-common] GET http://192.168.0.1/cgi-bin/hisnet/getcommparam.cgi?-type=DATE_FORMAT ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[45] cap-common   http://192.168.0.1/cgi-bin/hisnet/getcommparamcapability.cgi?-type=ANTI_FLICKER
+=== [cap-common] GET http://192.168.0.1/cgi-bin/hisnet/getcommparamcapability.cgi?-type=ANTI_FLICKER ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:53 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[46] param-common http://192.168.0.1/cgi-bin/hisnet/getcommparam.cgi?-type=ANTI_FLICKER
+=== [param-common] GET http://192.168.0.1/cgi-bin/hisnet/getcommparam.cgi?-type=ANTI_FLICKER ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[47] cap-common   http://192.168.0.1/cgi-bin/hisnet/getcommparamcapability.cgi?-type=SYS_DORMANT
+=== [cap-common] GET http://192.168.0.1/cgi-bin/hisnet/getcommparamcapability.cgi?-type=SYS_DORMANT ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[48] param-common http://192.168.0.1/cgi-bin/hisnet/getcommparam.cgi?-type=SYS_DORMANT
+=== [param-common] GET http://192.168.0.1/cgi-bin/hisnet/getcommparam.cgi?-type=SYS_DORMANT ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[49] cap-common   http://192.168.0.1/cgi-bin/hisnet/getcommparamcapability.cgi?-type=SCREEN_DORMANT
+=== [cap-common] GET http://192.168.0.1/cgi-bin/hisnet/getcommparamcapability.cgi?-type=SCREEN_DORMANT ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[50] param-common http://192.168.0.1/cgi-bin/hisnet/getcommparam.cgi?-type=SCREEN_DORMANT
+=== [param-common] GET http://192.168.0.1/cgi-bin/hisnet/getcommparam.cgi?-type=SCREEN_DORMANT ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[51] cap-common   http://192.168.0.1/cgi-bin/hisnet/getcommparamcapability.cgi?-type=LANGUAGE
+=== [cap-common] GET http://192.168.0.1/cgi-bin/hisnet/getcommparamcapability.cgi?-type=LANGUAGE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[52] param-common http://192.168.0.1/cgi-bin/hisnet/getcommparam.cgi?-type=LANGUAGE
+=== [param-common] GET http://192.168.0.1/cgi-bin/hisnet/getcommparam.cgi?-type=LANGUAGE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[53] cap-common   http://192.168.0.1/cgi-bin/hisnet/getcommparamcapability.cgi?-type=VIDEO_FORMS
+=== [cap-common] GET http://192.168.0.1/cgi-bin/hisnet/getcommparamcapability.cgi?-type=VIDEO_FORMS ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[54] param-common http://192.168.0.1/cgi-bin/hisnet/getcommparam.cgi?-type=VIDEO_FORMS
+=== [param-common] GET http://192.168.0.1/cgi-bin/hisnet/getcommparam.cgi?-type=VIDEO_FORMS ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[55] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=NORM_REC&-type=MEDIAMODE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=NORM_REC&-type=MEDIAMODE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[56] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=NORM_REC&-type=PHOTO_SCENE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=NORM_REC&-type=PHOTO_SCENE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[57] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=NORM_REC&-type=PHOTO_OUTPUT_FMT
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=NORM_REC&-type=PHOTO_OUTPUT_FMT ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[58] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=NORM_REC&-type=DELAY_TIME
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=NORM_REC&-type=DELAY_TIME ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[59] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=NORM_REC&-type=LAPSE_INTERVAL
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=NORM_REC&-type=LAPSE_INTERVAL ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[60] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=NORM_REC&-type=BURST_TYPE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=NORM_REC&-type=BURST_TYPE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[61] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=NORM_REC&-type=LOOP_TYPE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=NORM_REC&-type=LOOP_TYPE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[62] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LOOP_REC&-type=MEDIAMODE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LOOP_REC&-type=MEDIAMODE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[63] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LOOP_REC&-type=PHOTO_SCENE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LOOP_REC&-type=PHOTO_SCENE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[64] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LOOP_REC&-type=PHOTO_OUTPUT_FMT
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LOOP_REC&-type=PHOTO_OUTPUT_FMT ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[65] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LOOP_REC&-type=DELAY_TIME
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LOOP_REC&-type=DELAY_TIME ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[66] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LOOP_REC&-type=LAPSE_INTERVAL
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LOOP_REC&-type=LAPSE_INTERVAL ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[67] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LOOP_REC&-type=BURST_TYPE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LOOP_REC&-type=BURST_TYPE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:54 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[68] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LOOP_REC&-type=LOOP_TYPE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LOOP_REC&-type=LOOP_TYPE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[69] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_REC&-type=MEDIAMODE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_REC&-type=MEDIAMODE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[70] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_REC&-type=PHOTO_SCENE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_REC&-type=PHOTO_SCENE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[71] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_REC&-type=PHOTO_OUTPUT_FMT
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_REC&-type=PHOTO_OUTPUT_FMT ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[72] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_REC&-type=DELAY_TIME
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_REC&-type=DELAY_TIME ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[73] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_REC&-type=LAPSE_INTERVAL
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_REC&-type=LAPSE_INTERVAL ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[74] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_REC&-type=BURST_TYPE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_REC&-type=BURST_TYPE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[75] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_REC&-type=LOOP_TYPE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_REC&-type=LOOP_TYPE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[76] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SLOW_REC&-type=MEDIAMODE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SLOW_REC&-type=MEDIAMODE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[77] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SLOW_REC&-type=PHOTO_SCENE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SLOW_REC&-type=PHOTO_SCENE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[78] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SLOW_REC&-type=PHOTO_OUTPUT_FMT
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SLOW_REC&-type=PHOTO_OUTPUT_FMT ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[79] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SLOW_REC&-type=DELAY_TIME
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SLOW_REC&-type=DELAY_TIME ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[80] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SLOW_REC&-type=LAPSE_INTERVAL
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SLOW_REC&-type=LAPSE_INTERVAL ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[81] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SLOW_REC&-type=BURST_TYPE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SLOW_REC&-type=BURST_TYPE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[82] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SLOW_REC&-type=LOOP_TYPE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SLOW_REC&-type=LOOP_TYPE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[83] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SING_PHOTO&-type=MEDIAMODE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SING_PHOTO&-type=MEDIAMODE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[84] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SING_PHOTO&-type=PHOTO_SCENE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SING_PHOTO&-type=PHOTO_SCENE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[85] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SING_PHOTO&-type=PHOTO_OUTPUT_FMT
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SING_PHOTO&-type=PHOTO_OUTPUT_FMT ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[86] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SING_PHOTO&-type=DELAY_TIME
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SING_PHOTO&-type=DELAY_TIME ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[87] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SING_PHOTO&-type=LAPSE_INTERVAL
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SING_PHOTO&-type=LAPSE_INTERVAL ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[88] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SING_PHOTO&-type=BURST_TYPE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SING_PHOTO&-type=BURST_TYPE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[89] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SING_PHOTO&-type=LOOP_TYPE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=SING_PHOTO&-type=LOOP_TYPE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[90] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=DLAY_PHOTO&-type=MEDIAMODE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=DLAY_PHOTO&-type=MEDIAMODE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:55 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[91] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=DLAY_PHOTO&-type=PHOTO_SCENE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=DLAY_PHOTO&-type=PHOTO_SCENE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[92] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=DLAY_PHOTO&-type=PHOTO_OUTPUT_FMT
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=DLAY_PHOTO&-type=PHOTO_OUTPUT_FMT ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[93] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=DLAY_PHOTO&-type=DELAY_TIME
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=DLAY_PHOTO&-type=DELAY_TIME ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[94] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=DLAY_PHOTO&-type=LAPSE_INTERVAL
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=DLAY_PHOTO&-type=LAPSE_INTERVAL ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[95] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=DLAY_PHOTO&-type=BURST_TYPE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=DLAY_PHOTO&-type=BURST_TYPE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[96] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=DLAY_PHOTO&-type=LOOP_TYPE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=DLAY_PHOTO&-type=LOOP_TYPE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=1000) ===
+
+[97] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_PHOTO&-type=MEDIAMODE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_PHOTO&-type=MEDIAMODE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[98] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_PHOTO&-type=PHOTO_SCENE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_PHOTO&-type=PHOTO_SCENE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[99] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_PHOTO&-type=PHOTO_OUTPUT_FMT
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_PHOTO&-type=PHOTO_OUTPUT_FMT ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[100] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_PHOTO&-type=DELAY_TIME
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_PHOTO&-type=DELAY_TIME ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[101] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_PHOTO&-type=LAPSE_INTERVAL
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_PHOTO&-type=LAPSE_INTERVAL ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[102] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_PHOTO&-type=BURST_TYPE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_PHOTO&-type=BURST_TYPE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[103] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_PHOTO&-type=LOOP_TYPE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=LPSE_PHOTO&-type=LOOP_TYPE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[104] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=BURST&-type=MEDIAMODE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=BURST&-type=MEDIAMODE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[105] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=BURST&-type=PHOTO_SCENE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=BURST&-type=PHOTO_SCENE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[106] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=BURST&-type=PHOTO_OUTPUT_FMT
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=BURST&-type=PHOTO_OUTPUT_FMT ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[107] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=BURST&-type=DELAY_TIME
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=BURST&-type=DELAY_TIME ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[108] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=BURST&-type=LAPSE_INTERVAL
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=BURST&-type=LAPSE_INTERVAL ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[109] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=BURST&-type=BURST_TYPE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=BURST&-type=BURST_TYPE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[110] cap-workmode http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=BURST&-type=LOOP_TYPE
+=== [cap-workmode] GET http://192.168.0.1/cgi-bin/hisnet/getworkmodeparamcapability.cgi?-workmode=BURST&-type=LOOP_TYPE ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:51:56 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[111] tcp-probe    tcp://192.168.0.1:554
+=== [tcp-probe] TCP 192.168.0.1:554 ===
+Connection to 192.168.0.1 port 554 [tcp/rtsp] succeeded!
+OPEN
+=== END (exit_code=0) ===
+
+[112] tcp-probe    tcp://192.168.0.1:8554
+=== [tcp-probe] TCP 192.168.0.1:8554 ===
+CLOSED_OR_FILTERED
+=== END (exit_code=0) ===
+
+[113] tcp-probe    tcp://192.168.0.1:5000
+=== [tcp-probe] TCP 192.168.0.1:5000 ===
+CLOSED_OR_FILTERED
+=== END (exit_code=0) ===
+
+[114] tcp-probe    tcp://192.168.0.1:8080
+=== [tcp-probe] TCP 192.168.0.1:8080 ===
+CLOSED_OR_FILTERED
+=== END (exit_code=0) ===
+
+[115] tcp-probe    tcp://192.168.0.1:81
+=== [tcp-probe] TCP 192.168.0.1:81 ===
+CLOSED_OR_FILTERED
+=== END (exit_code=0) ===
+
+[116] mjpeg-probe  http://192.168.0.1/cgi-bin/mjpg/video.cgi
+=== [mjpeg-probe] GET http://192.168.0.1/cgi-bin/mjpg/video.cgi ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:52:00 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[117] mjpeg-probe  http://192.168.0.1/cgi-bin/mjpeg/video.cgi
+=== [mjpeg-probe] GET http://192.168.0.1/cgi-bin/mjpeg/video.cgi ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:52:00 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[118] mjpeg-probe  http://192.168.0.1/videostream.cgi
+=== [mjpeg-probe] GET http://192.168.0.1/videostream.cgi ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:52:01 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[119] mjpeg-probe  http://192.168.0.1/mjpg/video.mjpg
+=== [mjpeg-probe] GET http://192.168.0.1/mjpg/video.mjpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:52:01 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[120] mjpeg-probe  http://192.168.0.1/livestream/11.mjpg
+=== [mjpeg-probe] GET http://192.168.0.1/livestream/11.mjpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:52:01 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[121] mjpeg-probe  http://192.168.0.1/livestream/12.mjpg
+=== [mjpeg-probe] GET http://192.168.0.1/livestream/12.mjpg ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:52:01 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[122] mjpeg-probe  http://192.168.0.1/cgi-bin/hisnet/livestream.cgi
+=== [mjpeg-probe] GET http://192.168.0.1/cgi-bin/hisnet/livestream.cgi ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:52:01 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[123] thttpd-fs    http://192.168.0.1/
+=== [thttpd-fs] GET http://192.168.0.1/ ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:52:01 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[124] thttpd-fs    http://192.168.0.1/index.html
+=== [thttpd-fs] GET http://192.168.0.1/index.html ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:52:01 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[125] thttpd-fs    http://192.168.0.1/sd/
+=== [thttpd-fs] GET http://192.168.0.1/sd/ ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:52:01 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+[126] thttpd-fs    http://192.168.0.1/sd/DCIM/
+=== [thttpd-fs] GET http://192.168.0.1/sd/DCIM/ ===
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 345
+Date: Fri, 05 Jun 2026 20:52:01 GMT
+Server: lighttpd/1.4.26
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>404 - Not Found</title>
+ </head>
+ <body>
+  <h1>404 - Not Found</h1>
+ </body>
+</html>
+
+=== END (exit_code=0, elapsed_ms=0) ===
+
+
+================================================================
+ SUMMARY
+ Total requests:    126
+ HTTP/TCP success:  122
+ Curl/TCP failures: 4
+================================================================
+
+OBS: 'success' aqui significa apenas que o curl conseguiu falar
+com o servidor. Códigos HTTP 404 ou -2222/-5555 do SDK ainda
+contam como 'success' — a classificação fina vem na Fase 2.
+
+
+=== PROBE_END ===
+total=126
+ok=122
+fail=4
