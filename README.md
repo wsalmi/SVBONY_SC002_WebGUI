@@ -1,154 +1,172 @@
 # SVBONY SC002 Console
 
-GUI web local em Python para controlar a SVBONY SC002 (firmware HiMobileCam,
-SoC HiSilicon) **sem o app oficial HSMSCAM2**. A interface expõe todas as
-funções do app — e várias que o app não libera — e fornece as URLs RTSP/MJPEG
-prontas para abrir no VLC externo.
+GUI web local, em Python, para operar a dashcam SVBONY SC002 sem o aplicativo oficial HSMSCAM2. O computador entra no Wi-Fi da câmera e esta interface consulta o firmware HiMobileCam por HTTP: lê o estado, grava opções de menu, tira foto, lista e baixa arquivos do armazenamento interno e mostra a URL RTSP para abrir no VLC.
 
-> Identificação: o User-Agent capturado (`HSMSCAM2/1.9.1`) e o firmware
-> `SC002_53_2507151656` em [output.txt](output.txt) confirmam o modelo. O
-> firmware é um clone do SDK público do HiMobileCam, então a maior parte do
-> que está nos refs [TheNitek/ActionCam](https://github.com/TheNitek/ActionCam)
-> e [lr-m/Action-Cam-Hacking](https://github.com/lr-m/Action-Cam-Hacking)
-> também vale aqui.
+O firmware visto em [output.txt](output.txt) é `SC002_53_2507151656`. O tráfego do app oficial usa o User-Agent `HSMSCAM2/1.9.1`. Em `/app/getproductinfo` a unidade se apresenta como DVR da família SGK, um clone desse SDK. Parte do que [TheNitek/ActionCam](https://github.com/TheNitek/ActionCam) e [lr-m/Action-Cam-Hacking](https://github.com/lr-m/Action-Cam-Hacking) descrevem vale aqui. Nesta câmera a família `/cgi-bin/hisnet/*.cgi` responde 404. O catálogo medido está em [docs/ENDPOINTS.md](docs/ENDPOINTS.md).
 
-## Estrutura
+## Funcionalidades
 
-```
-Svbony-SC002/
-  probe/
-    probe_camera.sh             # discovery seguro (só leituras)
-    probe_results.example.txt   # fixture sintética para mock mode
-    probe_results.txt           # você gera com o script acima
-  app/
-    main.py                     # FastAPI
-    camera_client.py            # httpx async + parser dual + mock + VLC
-    endpoints.py                # catálogo tipado de ~50 endpoints
-    requirements.txt
-    templates/index.html
-    static/app.{js,css}
-  docs/ENDPOINTS.md             # referência viva
-  call_cam.sh                   # script bash original (loop de polling)
-  captures.txt                  # tráfego bruto do app
-  output.txt                    # respostas curl coletadas
-```
+A barra lateral lista os seis grupos do catálogo e um console **Advanced**. Itens com status `unsupported` ficam ocultos até marcar "mostrar unsupported".
 
-## Setup
+- **Status** — identificação, bateria, armazenamento, produto, estado do snapshot e duração da gravação (`/app/getdeviceattr`, `/app/getbatteryinfo`, `/app/getsdinfo`, `/app/getproductinfo`, `/app/getsnapinfo`, `/app/getrecduration`).
+- **Camera** — leitura de `Camera.Menu.*` e `Camera.Preview.*`, e ajustes com `Config.cgi?action=set&property=<chave>&value=<valor>`. A chave vai sem o prefixo `Camera.Menu.` (formato visto no app oficial). Há cartões para resolução, HDR, loop, duração do clipe, burst, energia, LCD, time-lapse, detecção de movimento, orientação, áudio, LEDs e modos de interface.
+- **Recording** — foto imediata com `/app/snapshot`, gravada na pasta `event`. O vídeo da dashcam segue em loop (`loop`, `emr`, `park`) enquanto a câmera está ligada. Os candidatos de start/stop estão no catálogo como `unsupported`.
+- **Files** — `/app/getfilelist` devolve as pastas `loop`, `emr`, `park` e `event`. A lista mostra prévia, player HTML5, download e exclusão. O lighttpd da câmera serve o arquivo em `http://<câmera>/<name>`, com `Accept-Ranges: bytes`. A GUI proxia isso em `/api/file` e `/api/thumbnail`.
+- **Stream** — a primeira URL é a capturada do app oficial: `rtsp://<ip>:554/liveRTSP/av4`. Se `/app/getmediainfo` responder, a UI também lista o path que esse JSON declara (`/live/tcp/ch1`, porta 6035 no probe). Cada URL tem **Copiar** e **Abrir no VLC**.
+- **System** — leitura e ajuste do relógio (`TimeSettings`, valor `YYYY$MM$DD$HH$MM$SS`).
+- **Advanced** — método, path e query enviados à câmera sem validação.
 
-Requer Python 3.10+ e VLC (opcional, para abrir streams).
+Cada resposta mostra o status HTTP, o corpo em tabela `KEY=VALUE` ou JSON, e o botão **Copiar curl**. O indicador no topo consulta `/api/health` a cada 10 segundos.
+
+## Stack
+
+- Python, [FastAPI](https://fastapi.tiangolo.com/) e Uvicorn
+- Cliente HTTP assíncrono com [httpx](https://www.python-httpx.org/)
+- Templates [Jinja2](https://jinja.palletsprojects.com/) em `app/templates/index.html`
+- Front-end estático, sem build (`app/static/app.js` e `app/static/app.css`)
+- Sondas em bash (`curl` e `nc`)
+
+[app/requirements.txt](app/requirements.txt) pede FastAPI, Uvicorn, httpx e Jinja2. Na instalação verificada o pip resolveu FastAPI 0.162.0 e Uvicorn 0.54.0, ambos com `Requires-Python: >=3.10`.
+
+## Requisitos
+
+- Python 3.10 ou superior. Os comandos abaixo foram executados com Python 3.12.3.
+- Rede da câmera para o modo real. O IP padrão é `192.168.0.1`.
+- `bash`, `curl` e `nc` para os scripts em `probe/`. `probe_camera.sh` chama `nc -z -G` (timeout do netcat do macOS). O cabeçalho do script indica que o macOS já traz `curl` e `nc`.
+- VLC, se quiser ver o stream. **Abrir no VLC** executa `open -a VLC` e funciona no macOS. Nos outros sistemas, copie a URL e abra em Media → Open Network Stream.
+
+## Instalação
+
+Na raiz do repositório:
 
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -r app/requirements.txt
 ```
 
-## Fluxo de uso
+## Como executar
 
-### Passo 1 — Probe (uma vez, com a câmera ligada)
-
-```bash
-bash probe/probe_camera.sh > probe/probe_results.txt 2>&1
-```
-
-O script faz ~70 GETs **só de leitura** contra `192.168.0.1`, mais sondagem
-TCP da porta 554 (RTSP) e candidatos MJPEG. Não chama nada destrutivo
-(sem `reset`, `delete*`, `setwifi`, `upgrade`, `START/STOP` etc).
-
-Resumo no fim mostra `X/Y endpoints retornaram OK`. Cole esse arquivo no chat
-para eu enriquecer o catálogo de endpoints — ou simplesmente use ele direto
-em mock mode (`SC002_FIXTURE=probe/probe_results.txt`).
-
-### Passo 2 — Subir a GUI
-
-Modo real (Mac conectado ao Wi-Fi da SC002):
+Modo real, com o computador no Wi-Fi da SC002:
 
 ```bash
 .venv/bin/uvicorn app.main:app --port 8765
-# abre http://127.0.0.1:8765
 ```
 
-Modo mock (sem câmera, com fixture):
+Abra http://127.0.0.1:8765. Sem `--host`, o Uvicorn escuta em `127.0.0.1`. O docstring de `app/main.py` também cita a flag `--reload` do Uvicorn.
+
+Modo mock, sem câmera, com a fixture sintética:
 
 ```bash
 SC002_MOCK=1 SC002_FIXTURE=probe/probe_results.example.txt \
   .venv/bin/uvicorn app.main:app --port 8765
 ```
 
-Variáveis de ambiente suportadas:
+Esse comando foi executado neste repositório. `GET /` respondeu 200 e `GET /api/health` devolveu `{"online": true, "mock": true}`.
 
-| var | default | uso |
+`call_cam.sh` é o laço bash anterior à GUI. Ele consulta em ciclo alguns endpoints de status e só para com interrupção manual. `TARGET` define o IP (padrão `192.168.0.1`).
+
+### Sondas
+
+`probe/probe_camera.sh` emite 121 GETs de leitura e 5 sondagens TCP (portas 554, 8554, 5000, 8080 e 81). O script não chama reset, delete, setwifi, upgrade nem START/STOP.
+
+```bash
+bash probe/probe_camera.sh > probe/probe_results.txt 2>&1
+```
+
+`TARGET` (padrão `192.168.0.1`) e `TIMEOUT` (padrão `3` segundos neste script) valem para as sondas. As fases seguintes mudam estado na câmera:
+
+| Script | O que faz na câmera |
+| --- | --- |
+| `probe/probe_phase2.sh` | GETs de candidatos `/app/*` (inclui `/app/snapshot`), sets de `Camera.Preview.MJPEG.status` e `Camera.Menu.IsStreaming`, e um ciclo de `Camera.Menu.SoundIndicator` em OFF e de volta a ON. Também sonda as portas TCP 554, 6035, 7070 e 8554. |
+| `probe/probe_phase3.sh` | Chama `/app/snapshot` uma vez e testa apagar com um nome inválido. |
+| `probe/probe_phase3b.sh` | HEAD e GET de caminhos de download. |
+| `probe/probe_phase4.sh` | Grava `SoundRecord`, `HDR`, `SoundIndicator` e `StatusLights` em OFF e depois em ON, e envia `OPTIONS` RTSP para `/liveRTSP/av4`. Essas chaves terminam em ON. |
+
+O uso de cada um está no comentário do próprio script, no formato `bash probe/<script>.sh > probe/<script>_results.txt 2>&1`. Já há saídas em `probe/probe_results.txt`, `probe/probe_phase2_results.txt`, `probe/probe_phase3_results.txt` e `probe/probe_phase3b_results.txt`.
+
+O repositório não inclui suíte de testes automatizados.
+
+## Variáveis de ambiente
+
+Nenhuma delas é segredo. A câmera não autentica o HTTP.
+
+| Variável | Padrão | Onde |
 | --- | --- | --- |
-| `SC002_TARGET`  | `192.168.0.1` | IP da câmera |
-| `SC002_TIMEOUT` | `3`            | timeout HTTP em segundos |
-| `SC002_MOCK`    | (vazio)        | se setado, lê de fixture |
-| `SC002_FIXTURE` | `probe/probe_results.txt` | caminho da fixture |
+| `SC002_TARGET` | `192.168.0.1` | IP usado pela GUI |
+| `SC002_TIMEOUT` | `3` | timeout HTTP da GUI, em segundos |
+| `SC002_MOCK` | vazio | qualquer valor não vazio lê a fixture em vez da câmera |
+| `SC002_FIXTURE` | `probe/probe_results.txt` | caminho da fixture no modo mock |
+| `TARGET` | `192.168.0.1` | IP usado por `probe/*.sh` e `call_cam.sh` |
+| `TIMEOUT` | `3` ou `5` | timeout dos scripts de sonda, em segundos |
 
-### Passo 3 — Usar a UI
+## API local da GUI
 
-A sidebar tem 7 categorias:
+| Método | Caminho | Função |
+| --- | --- | --- |
+| `GET` | `/` | página da interface |
+| `GET` | `/api/health` | consulta `/app/getbatteryinfo` |
+| `GET` | `/api/info` | alvo, modo mock, grupos e total de endpoints |
+| `GET` | `/api/endpoints` | catálogo que a UI renderiza |
+| `POST` | `/api/call/{endpoint_id}` | dispara um item do catálogo |
+| `POST` | `/api/raw` | request livre (`method`, `path` e `query`, ou `url`) |
+| `GET` | `/api/stream-urls` | URLs RTSP sugeridas |
+| `POST` | `/api/open-in-vlc` | abre uma URL no VLC no macOS |
+| `GET` | `/api/file?name=` | proxy do arquivo, repassando `Range` |
+| `GET` | `/api/thumbnail?name=` | JPEG da foto; `.mp4` recebe um placeholder |
 
-- **Status** — info read-only (bateria, SD, versões, workmode).
-- **Camera** — toda árvore `Camera.Menu.*` configurável (HDR, VideoRes,
-  PowerSaving, MTD, TimeLapse, etc.). Cada cartão tem um dropdown com os
-  valores aceitos pelo firmware e um botão "Executar".
-- **Recording** — START/STOP de workmode, troca de workmode, click de tecla.
-- **Files** — lista, info e deleção de arquivos no SD.
-- **Stream** — RTSP/MJPEG URLs. Botão **Copiar** e **Abrir no VLC**
-  (macOS chama `open -a VLC <url>`).
-- **System** — sync de horário, leitura/escrita de Wi-Fi, reset (destrutivo).
-- **Advanced** — console raw: digite `method/path/query` e dispare qualquer
-  request. Útil para opções não expostas nos cartões.
+`app/endpoints.py` declara 64 endpoints: 39 `confirmed`, 1 `experimental` (status do preview MJPEG) e 24 `unsupported`.
 
-Cada resposta mostra:
+## Protocolo com a câmera
 
-- status HTTP colorido (verde 2xx / amarelo 4xx / vermelho erro);
-- tabela `KEY=VALUE` parseada (Config.cgi / hisnet) ou JSON formatado (/app/*);
-- botão **Copiar curl** com a chamada equivalente, headers incluídos.
+- HTTP/1.1, sem TLS e sem autenticação. Quem está no Wi-Fi da câmera controla o aparelho.
+- Os headers saem de `default_headers()` em [app/camera_client.py](app/camera_client.py). O User-Agent é `HSMSCAM2/1.9.1 (iPad; iOS 26.6; Scale/2.00)`. `Accept-Encoding` vai como `identity` para o corpo chegar legível. Na captura original do app o valor era `gzip, deflate`.
+- A query preserva `$`, `.` e `*` (`urlencode` com `safe="$.*"`), o que mantém `TimeSettings` (`YYYY$MM$DD$HH$MM$SS`) e curingas como `Camera.Menu.*`.
+- O parser escolhe JSON ou `KEY=VALUE` pelo conteúdo. Vários `/app/*` devolvem JSON com `Content-Type: text/plain`.
+- A escrita de menu confirmada no tráfego do app é `GET /cgi-bin/Config.cgi?action=set&property=SoundRecord&value=ON`, com o nome curto da propriedade.
+- O stream usado pelo app oficial (`ijkplayer`) é `rtsp://<ip>:554/liveRTSP/av4`. Os caminhos HTTP de MJPEG sondados em `probe/probe_camera.sh` responderam 404.
+- O download usa o campo `name` de `/app/getfilelist` como path, por exemplo um caminho sob `EMMC/`.
 
-Endpoints destrutivos pedem confirmação dupla (digite `EXECUTAR`).
+## Estrutura
 
-### Passo 4 — Vídeo no VLC
-
-Pela aba **Stream**:
-
-1. Confirme que `rtsp://192.168.0.1:554/livestream/11` apareceu como
-   "RTSP descoberto" (vem do JSON do `/app/getmediainfo`). Se não, use os
-   candidatos listados.
-2. Clique **Abrir no VLC** (macOS) ou **Copiar** e cole em VLC → Media →
-   Open Network Stream.
-3. Se o stream MJPEG retornar 404, antes vá na aba **Stream** e dispare o
-   set "MJPEG preview status = Run" para armar o preview.
-
-## Como o cliente fala com a câmera
-
-- Headers reproduzem byte-a-byte os do app `HSMSCAM2/1.9.1` (vide
-  `default_headers()` em [app/camera_client.py](app/camera_client.py)).
-- HTTP/1.1, sem TLS, sem autenticação (a câmera assume LAN confiável).
-- O quirk `YYYY$MM$DD$HH$MM$SS` em `TimeSettings` é preservado: a URL é
-  serializada com `urlencode(safe="$.*")`.
-- Parser dual: detecta `KEY=VALUE` (CGI clássico) vs JSON (/app/*) por
-  conteúdo, não por content-type — alguns endpoints devolvem JSON com
-  `Content-Type: text/plain`.
+```
+app/
+  main.py                  # FastAPI: página e rotas /api/*
+  camera_client.py         # httpx, parser, mock e abertura no VLC
+  endpoints.py             # catálogo tipado (64 endpoints)
+  requirements.txt
+  templates/index.html
+  static/app.js
+  static/app.css
+probe/
+  probe_camera.sh          # sonda somente leitura
+  probe_phase2.sh
+  probe_phase3.sh
+  probe_phase3b.sh
+  probe_phase4.sh
+  probe_results.example.txt
+  probe_results.txt
+  probe_phase2_results.txt
+  probe_phase3_results.txt
+  probe_phase3b_results.txt
+docs/ENDPOINTS.md          # referência dos endpoints da câmera
+call_cam.sh                # polling bash original
+captures.txt               # tráfego bruto do app oficial
+output.txt                 # respostas curl coletadas
+```
 
 ## Segurança
 
-- A GUI escuta em `127.0.0.1` por padrão; ninguém da rede acessa.
-- Endpoints destrutivos (`risk=DESTRUCTIVE`) pedem confirmação manual.
-- O console raw permite tudo — use com cuidado.
-- A câmera **não** tem autenticação. Quem está na Wi-Fi dela pode tudo.
+- Com o comando de execução acima, a GUI escuta só em `127.0.0.1`.
+- Um endpoint com `risk=DESTRUCTIVE` pede a palavra `EXECUTAR` antes do envio. Na galeria, **apagar** pede confirmação do navegador e chama `/app/deletefile`.
+- O console **Advanced** encaminha o método, o path e a query que você digitar.
+- A câmera aceita qualquer cliente na rede Wi-Fi dela.
 
-## Roadmap (não implementado ainda)
+## Licença
 
-- Re-rodar o probe automaticamente e dar diff entre execuções.
-- Player MJPEG embutido na UI via `<img>` (atualmente o vídeo é
-  delegado ao VLC).
-- Exportar o catálogo como coleção Postman / Insomnia.
-- Suporte a "perfis" (preset de várias configs aplicadas em batch).
+Este repositório não inclui arquivo de licença.
 
 ## Referências
 
-- [TheNitek/ActionCam](https://github.com/TheNitek/ActionCam) — catálogo
-  `cgi-bin/hisnet/*` + RTSP.
-- [lr-m/Action-Cam-Hacking](https://github.com/lr-m/Action-Cam-Hacking) —
-  catálogo `/app/*`.
-- [docs/ENDPOINTS.md](docs/ENDPOINTS.md) — referência viva deste projeto.
+- [docs/ENDPOINTS.md](docs/ENDPOINTS.md) — catálogo medido nesta SC002
+- [TheNitek/ActionCam](https://github.com/TheNitek/ActionCam) — família `cgi-bin/hisnet/*` e RTSP em outras câmeras do mesmo SDK
+- [lr-m/Action-Cam-Hacking](https://github.com/lr-m/Action-Cam-Hacking) — família `/app/*`
